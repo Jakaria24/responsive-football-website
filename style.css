@@ -1,0 +1,326 @@
+/*------------------
+   google font
+------------------ */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/*--------------------
+     common style
+--------------------- */
+body{
+   margin: 0;
+   font-family: 'Poppins', sans-serif;
+}
+
+
+/* -------------------------
+     header section -start 
+   ------------------------*/
+   /*----------------------------
+       navbar section start
+   ----------------------------- */
+   .head-container{
+       background-color:#11114cf2;
+   }
+  .nav-bar{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  }
+  .nav-menu{
+      display: flex;
+  }
+  .nav-menu li{
+      list-style: none;
+      margin: 20px;
+  }
+  .nav-menu li a{
+      text-decoration: none;
+      color: white;
+      font-size: 20px;
+  }
+  .button{
+    
+      padding:8px 30px ;
+      background-color: olive;
+      border-radius: 5px;
+      display: flex;
+      align-items: center;
+      margin-right: 100px;
+  }
+  .button img{
+    width: 20px;
+  }
+  .login-button{
+      text-decoration: none;
+      color: white;
+      font-size: 20px;
+      
+  }
+  .button:hover{
+      background-image: linear-gradient(orange,tomato);
+  }  
+  /*------------------------ 
+       navbar section end
+  ------------------------- */
+  /*-------------------------
+     banner title start 
+  ------------------------- */
+
+  .banner-container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+    padding-bottom: 90px;
+}
+.head-title h1{
+    font-size: 80px;
+    color: white;
+    margin-left: 55px;
+    margin-bottom: 30px;
+}
+.icon-button a{
+    text-decoration: none;
+    color: white;
+    background-color: olive;
+    font-size: 20px;
+    margin-left: 55px;
+    padding: 10px 25px;
+}
+.watch-icon{
+    padding-left: 5px;
+}
+.icon-button :hover{
+   background-image: linear-gradient(orange,tomato);
+}
+.banner-img img{
+  width: 556px;
+  height: 438px;
+  margin-top: 10px;
+  margin-left: 100px;
+}
+/*------------------------
+   banner title end 
+------------------------ */
+ /*------------------------- 
+     player detail start 
+ ------------------------- */
+
+ .players-section{
+    width: 100%;
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   align-items: stretch;
+   grid-row-gap: 50px;
+   grid-column-gap: 10px;
+   margin-bottom: 150px;
+}
+.player-detail {
+    width: 350px;
+    box-shadow: 10px 10px 50px #17151524;
+    margin-left:0 px;
+    padding: 15px 15px 0 15px;
+    border-radius: 5px;
+}
+.player-detail img{
+    width: 100%;
+}
+.player-detail p{
+    text-align: justify;
+    font-family: font-family: 'Poppins', sans-serif;
+}
+
+   /*------------------------
+       player detail end 
+   ------------------------- */
+
+      /*--------------------------
+      club section start 
+   ------------------------- */
+
+   #club-head-title{
+    text-align: center;
+    margin-bottom: 0px;
+}
+hr{
+    width: 200px;
+    margin-bottom: 50px;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 30px;
+    margin-bottom: 100px;
+}
+
+.club-head{
+   text-align: center;
+}
+.club-detail{
+    width: 350px;
+    text-align: center;
+    box-shadow:10px 10px 50px #17151524 ;
+    border-radius: 5px;
+    padding: 30px 20px 50px 20px;
+}
+.club-detail img{
+    width: 50%;
+}
+.club-detail p{
+    text-align: justify;
+}
+
+/*--------------------------
+   club section start 
+------------------------- */
+
+ /*----------------------------- 
+    highlight section start 
+ ------------------------------- */
+
+ .copa-highlight{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+   }
+   .highlight-details {
+       width: 400px;
+   }
+   .highlight-details h1{
+       font-size: 50px;
+   }
+   .highlight-details  p{
+       color: gray;
+       padding-bottom: 10px;
+       text-align: justify;
+   }
+   .open-highlight a{
+          width: 133px;
+          text-decoration: none;
+          color: white;
+          background-color: olive;
+          font-size: 20px;
+          padding: 10px 25px;
+   }
+   .open-highlight a:hover{
+       background-image: linear-gradient(orange,tomato);
+   }
+   .highlight-image img{
+       width: 500px;
+       padding-right: 50px;
+       margin-top: 80px;
+   }
+  
+    /*----------------------------- 
+      highlight section end
+   ------------------------------- */
+
+   /*------------------------ 
+       award section start
+   ------------------------- */
+   .club-choose{
+       background-image: url(images/R\ \(2\).jpg);
+       background-repeat: no-repeat;
+       margin-right: 40px;
+       margin-bottom: 100px;
+       padding: 30px 0;
+
+   }
+   .award-background{
+       background-color: #000000cf;
+       margin-left: 100px;
+       margin-right: 100px;
+   }
+   .club-formality h1{
+       color: white;
+       text-align: center;
+       padding-top: 20px;
+   }
+   .feedback-details{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+   }
+   .feedback{
+       margin: 20px;
+       padding-left: 25px;
+   }
+   .feedback .award-icon{
+       width: 170px;
+       height: 100px;
+       text-align: center;
+       font-size: 50px;
+       color: white;
+       padding-top: 30px;
+       border: 1px solid white;
+   }
+   .feedback .award-icon:hover{
+       background-color: white;
+       color: black;
+   }
+   .feedback h1 {
+       color: white;
+       margin-bottom: 0;
+   }
+   .feedback p{
+       color: white;
+       padding-top: 0px;
+       margin-top: 0;
+   }
+
+    /*------------------------ 
+       award section end
+   ------------------------- */
+   
+    /*--------------------------
+      contact form start 
+ -------------------------- */
+
+ .contact-form{
+    text-align: center;
+    background-color: gray;
+    margin-right: 0px;
+    margin-bottom: 100px;
+    padding: 20px 0px;
+    margin-right: 40px;
+}
+
+  .form-details input{
+       padding: 10px 60px 10px 2px;
+       background-color: white;
+       margin-bottom: 10px;
+       border: none;
+       border-radius: 5px;
+  }
+  .message-area textarea{
+      padding-right: 40px;
+      background-color:white ;
+  }
+
+   /*--------------------------
+     contact form end
+-------------------------- */
+
+/*--------------------------- 
+    footer section start 
+---------------------------- */
+
+.finish-section img{
+    margin-left: 400px;
+    width: 40%;
+} 
+.icon-serial{
+    margin-left: 580px;
+}
+.social-icon{
+    font-size: 25px;
+    color: rgba(128, 128, 128, 0.692);
+    padding: 10px;
+}
+.finish-section p{
+    text-align: center;
+    color: rgba(128, 128, 128, 0.692) ;
+}
+
+/*--------------------------- 
+    footer section end 
+---------------------------- */
